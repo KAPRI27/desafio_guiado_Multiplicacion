@@ -10,11 +10,11 @@ const solicitarYValidarNumero = () => {
   
     // Validar que el numero este entre 1 y 20
     if (numero >= 1 && numero <= 20) {
-      console.log(`numero ingresado correcto ${numero}`);
+      document.write(`numero ingresado correcto ${numero} <br>`);
       // Retornar el valor del numero para usarlo despues
       return numero;
     } else {
-      console.log(`numero ingresado incorrecto ${numero}`);
+      document.write(`numero ingresado incorrecto ${numero} <br>`);
       // Retornar un valor nulo
       return null;
     }
@@ -36,7 +36,7 @@ const solicitarYValidarNumero = () => {
         }
   
         // Ver en consola
-        console.log(`El factorial de ${iteracion}: ${factorial}`);
+        document.write(`El factorial de ${iteracion}: ${factorial} <br>`);
       }
     }
   };
